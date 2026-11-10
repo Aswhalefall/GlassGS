@@ -10,4 +10,4 @@ Edit `index.html`, `styles.css`, and `app.js` in this directory to update the Gi
 python -m http.server 8080 --directory docs
 ```
 
-Research photos are extracted original images; SVG figures preserve vector labels and the embedded image resolution. `assets/image-provenance.json` records the source and pixel hashes of the four input/output comparisons. Additional Author Response figures are identified separately from the main paper's results.
+Research photos are extracted original images; SVG figures preserve vector labels and the embedded image resolution. `assets/image-provenance.json` records the source and pixel hashes of the four input/output comparisons. The page presents our method, datasets, quantitative evaluation, qualitative comparisons, and limitations. The independent 2D restoration evaluation is clearly distinguished from the 3D reconstruction benchmark.

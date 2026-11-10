@@ -1,6 +1,6 @@
 <div align="center">
 <h1>
-    <a href="" target="_blank">
+    <a href="https://aswhalefall.github.io/GlassGS/" target="_blank">
         GlassGS: Geometry and Concept-Aware 3D Gaussian Splatting for Reflective Enclosures (ECCV 26)
     </a>
 </h1>
@@ -8,16 +8,29 @@
 <img src="./assets/fig1.png" width="800">
 </div>
 
+<p align="center">
+  <a href="https://aswhalefall.github.io/GlassGS/"><strong>Project Page</strong></a> ·
+  <a href="https://link.springer.com/chapter/10.1007/978-3-032-37432-5_7"><strong>Paper</strong></a> ·
+  <a href="https://github.com/Aswhalefall/GlassGS"><strong>Code</strong></a>
+</p>
+
+<p align="center">
+Mingxuan Cui · Yunrui Zhu · Wuqi Wang · Di Lin · Jianhua Zhang<br>
+Jie Zhang · Ming-Ming Cheng · Shengyong Chen · Qing Guo
+</p>
+
+**[Explore the project page](https://aswhalefall.github.io/GlassGS/)** for interactive visual comparisons, our method, experiments, datasets, and citation details.
+
 ## Overview
 
-**GlassGS** is a geometry- and concept-aware 3D Gaussian Splatting framework for reconstructing objects inside reflective glass enclosures.
+We introduce **GlassGS**, a geometry- and concept-aware 3D Gaussian Splatting framework for reconstructing objects inside reflective glass enclosures.
 
 High specular reflections (HSR) severely violate multi-view consistency and are easily reconstructed as false geometry. We observe two key properties:
 
 - **Geometry-inconsistency:** reflections vary significantly across viewpoints and corrupt geometric reconstruction.
 - **Concept-preservation:** despite local reflection contamination, the underlying object concept remains relatively stable.
 
-GlassGS jointly exploits these properties to suppress reflections while preserving faithful object geometry and appearance.
+We jointly exploit these properties to suppress reflections while preserving faithful object geometry and appearance.
 
 <br>
 
