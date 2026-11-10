@@ -1,0 +1,74 @@
+{
+  "view1-input.png": {
+    "source_pdf": "main-paper/imgs/figure1.pdf",
+    "extracted_image": "image-003.png",
+    "size": [
+      960,
+      540
+    ],
+    "pixel_sha256": "1a14f41dba6817f649c2d5f9b74074f49a6133007ef06c1028f4de97f891eaf3"
+  },
+  "view1-result.png": {
+    "source_pdf": "main-paper/imgs/figure1.pdf",
+    "extracted_image": "image-014.png",
+    "size": [
+      960,
+      540
+    ],
+    "pixel_sha256": "7b259bf1ddbb027799a0d23fd66a87f59593cb5a87dd8b392d3643a4914f5727"
+  },
+  "view2-input.png": {
+    "source_pdf": "main-paper/imgs/figure1.pdf",
+    "extracted_image": "image-002.png",
+    "size": [
+      960,
+      540
+    ],
+    "pixel_sha256": "6fb621c6ac95af365747634ac572aa07b9648b78161ad8572b4781b0f8cd9db9"
+  },
+  "view2-result.png": {
+    "source_pdf": "main-paper/imgs/figure1.pdf",
+    "extracted_image": "image-013.png",
+    "size": [
+      960,
+      540
+    ],
+    "pixel_sha256": "0720642de76e70793ecd49b3f16a668abd6f7c7b686210e3b9cfcfd3fedbf9b4"
+  },
+  "view3-input.png": {
+    "source_pdf": "main-paper/imgs/figure1.pdf",
+    "extracted_image": "image-001.png",
+    "size": [
+      960,
+      540
+    ],
+    "pixel_sha256": "2b1add95da857bc03c9b8dff20649b963ffea6e582a7124bcb4df2bb8ee294ab"
+  },
+  "view3-result.png": {
+    "source_pdf": "main-paper/imgs/figure1.pdf",
+    "extracted_image": "image-012.png",
+    "size": [
+      960,
+      540
+    ],
+    "pixel_sha256": "50094a6a447e1aae24aa29fdd343e171f1ef448d084e221d7ee761925ba9596b"
+  },
+  "view4-input.png": {
+    "source_pdf": "main-paper/imgs/figure1.pdf",
+    "extracted_image": "image-000.png",
+    "size": [
+      960,
+      540
+    ],
+    "pixel_sha256": "7e4d1c56763df2c6d8d635d40e2d30556097e50b72cb786312e6d5cae791cc73"
+  },
+  "view4-result.png": {
+    "source_pdf": "main-paper/imgs/figure1.pdf",
+    "extracted_image": "image-015.png",
+    "size": [
+      960,
+      540
+    ],
+    "pixel_sha256": "48744737096c9f209e615f8b8d7e4241e4fe47f620619688bd85fbf7e18cabb8"
+  }
+}
