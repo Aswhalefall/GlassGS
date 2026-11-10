@@ -16,122 +16,122 @@
 /* Responsive reading scale: generous desktop layout, bounded image resolution. */
 :root{--muted:#5e6c61}
 html{scroll-padding-top:28px}
-body{font-size:18px;line-height:1.75}
+body{font-size:20px;line-height:1.75}
 .wrap{width:min(1480px,calc(100% - 112px))}
 .header{height:112px;gap:28px}
-.header nav{gap:28px;font-size:16px}
-.nav-code{font-size:15px;padding:10px 18px;white-space:nowrap}
+.header nav{gap:28px;font-size:18px}
+.nav-code{font-size:17px;padding:10px 18px;white-space:nowrap}
 .brand{font-size:29px;flex-shrink:0}
-.brand sup{font-size:11px}
+.brand sup{font-size:13px}
 .hero{grid-template-columns:1.12fr 1fr;gap:72px;padding-block:68px 64px}
-.badge{font-size:13px;padding:6px 15px}
-.eyebrow{font-size:13px;letter-spacing:2px;margin-bottom:22px}
-.hero-label{font-size:12px;margin-top:32px}
+.badge{font-size:15px;padding:6px 15px}
+.eyebrow{font-size:15px;letter-spacing:2px;margin-bottom:22px}
+.hero-label{font-size:14px;margin-top:32px}
 h1{font-size:clamp(78px,6.2vw,112px);line-height:1.02;letter-spacing:-3px;margin-bottom:28px}
-.hero-copy h2{font-family:var(--sans);font-size:22px;line-height:1.5;letter-spacing:-.4px;max-width:640px}
-.intro{font-size:18px;line-height:1.8;max-width:58ch;margin-block:22px 28px}
-.button{font-size:16px;padding:15px 23px;min-height:52px}
+.hero-copy h2{font-family:var(--sans);font-size:24px;line-height:1.5;letter-spacing:-.4px;max-width:640px}
+.intro{font-size:20px;line-height:1.8;max-width:52ch;margin-block:22px 28px}
+.button{font-size:18px;padding:15px 23px;min-height:52px}
 .actions{gap:14px;flex-wrap:wrap}
-.discover{font-size:13px;margin-top:30px}
+.discover{font-size:15px;margin-top:30px}
 .hero-art{height:620px}
-.art-top,.art-bottom{font-size:12px;letter-spacing:.7px;gap:16px}
-.art-note{font-size:14px;bottom:76px}
+.art-top,.art-bottom{font-size:14px;letter-spacing:.7px;gap:16px}
+.art-note{font-size:16px;bottom:76px}
 .exhibit{inset:60px 42px 68px}
-.authors{font-size:15px;padding-block:26px;gap:32px}
+.authors{font-size:17px;padding-block:26px;gap:32px}
 .authors p{max-width:75ch}
 .authors>a{flex-shrink:0}
 .section{padding-block:104px}
 h2{font-size:clamp(46px,3.7vw,64px);line-height:1.12;letter-spacing:-1.3px}
-h3{font-size:22px;line-height:1.4}
+h3{font-size:24px;line-height:1.4}
 .overview{gap:48px 88px}
-.overview-copy{font-size:18px;padding-top:32px;max-width:64ch}
-.insight p{font-size:17px;max-width:52ch}
+.overview-copy{font-size:20px;padding-top:32px;max-width:60ch}
+.insight p{font-size:20px;max-width:52ch}
 .section-heading{gap:48px;margin-bottom:40px}
-.section-heading>p{font-size:17px;line-height:1.8;max-width:42ch}
-.text-link{font-size:16px}
-.scene{font-size:15px;padding:11px 17px;min-height:44px}
+.section-heading>p{font-size:20px;line-height:1.8;max-width:42ch}
+.text-link{font-size:18px}
+.scene{font-size:17px;padding:11px 17px;min-height:44px}
 .scene-picker{gap:10px;margin-bottom:24px;justify-content:center}
-.compare-tag{font-size:12px;letter-spacing:.8px}
-.figure-caption{font-size:14px;line-height:1.7;max-width:960px;margin-inline:auto}
+.compare-tag{font-size:14px;letter-spacing:.8px}
+.figure-caption{font-size:16px;line-height:1.7;max-width:960px;margin-inline:auto}
 .scene-gallery{padding:28px;margin-top:38px}
-.scene-gallery .eyebrow{font-size:13px}
-.scene-gallery p{font-size:17px;max-width:70ch}
-.scene-gallery figcaption{font-size:14px}
-.full-figure summary,.research-details summary{font-size:18px;padding-block:24px;min-height:56px}
+.scene-gallery .eyebrow{font-size:15px}
+.scene-gallery p{font-size:20px;max-width:70ch}
+.scene-gallery figcaption{font-size:16px}
+.full-figure summary,.research-details summary{font-size:20px;padding-block:24px;min-height:56px}
 .visual-row{grid-template-columns:110px repeat(4,minmax(0,1fr));min-width:800px;gap:8px}
-.visual-row>span,.dc-row>span{font-size:14px}
+.visual-row>span,.dc-row>span{font-size:16px}
 .dc-row{grid-template-columns:100px repeat(3,minmax(0,1fr));min-width:660px;gap:8px}
 .metric-strip{gap:40px;margin-block:48px 54px}
 .metric-strip strong{font-size:72px}
 .metric-strip small{font-size:28px}
-.metric-strip span{font-size:18px}
-.metric-strip p{font-size:15px}
+.metric-strip span{font-size:20px}
+.metric-strip p{font-size:17px}
 .benchmark-tabs{gap:32px;overflow-x:auto}
-.benchmark-tabs button{font-size:17px;min-height:52px;white-space:nowrap}
-table,.table-scroll table{font-size:16px}
-thead th{font-size:14px}
+.benchmark-tabs button{font-size:20px;min-height:52px;white-space:nowrap}
+table,.table-scroll table{font-size:18px}
+thead th{font-size:16px}
 th,td{padding:19px 22px}
-caption{font-size:15px;white-space:normal;line-height:1.7}
-.ours th span{font-size:11px}
-.table-note{font-size:15px;max-width:100ch}
+caption{font-size:17px;white-space:normal;line-height:1.7}
+.ours th span{font-size:13px}
+.table-note{font-size:17px;max-width:100ch}
 .benchmark{padding-bottom:0}
 .steps{gap:42px;margin-block:48px}
-.steps p{font-size:17px;line-height:1.8}
+.steps p{font-size:20px;line-height:1.8}
 .step-no{font-size:36px}
 .pipeline{padding:30px}
-.pipeline figcaption{font-size:13px;letter-spacing:.5px;gap:24px;line-height:1.7}
+.pipeline figcaption{font-size:15px;letter-spacing:.5px;gap:24px;line-height:1.7}
 .method-detail{grid-template-columns:.8fr 1.2fr;gap:56px;margin-top:48px}
 .method-detail h3{font-size:38px}
-.method-detail p:not(.eyebrow),.research-details>p{font-size:17px;line-height:1.85}
-.method-detail .eyebrow{font-size:12px}
-.method-detail figcaption,.dataset-figure figcaption{font-size:14px;line-height:1.7}
-.research-details>.table-note{font-size:14px}
+.method-detail p:not(.eyebrow),.research-details>p{font-size:20px;line-height:1.85}
+.method-detail .eyebrow{font-size:14px}
+.method-detail figcaption,.dataset-figure figcaption{font-size:16px;line-height:1.7}
+.research-details>.table-note{font-size:16px}
 .research-details>p{max-width:78ch}
 .ablation-bars{max-width:1050px;gap:20px}
-.ablation-bars>div{grid-template-columns:285px 1fr 96px;font-size:16px;gap:24px}
+.ablation-bars>div{grid-template-columns:285px 1fr 96px;font-size:18px;gap:24px}
 .ablation-bars i{height:12px}
 .dataset-grid{gap:36px}
 .dataset-grid article{padding:38px}
-.dataset-type{font-size:12px}
+.dataset-type{font-size:14px}
 .dataset-grid h3{font-size:44px}
-.dataset-grid p{font-size:17px;max-width:58ch;line-height:1.8}
+.dataset-grid p{font-size:20px;max-width:58ch;line-height:1.8}
 .dataset-stats strong{font-size:58px}
-.dataset-stats span,.dataset-grid .dataset-foot{font-size:15px}
-.synthetic-recipe span{font-size:14px;padding:10px 12px}
+.dataset-stats span,.dataset-grid .dataset-foot{font-size:17px}
+.synthetic-recipe span{font-size:16px;padding:10px 12px}
 .discussion-body{grid-template-columns:.75fr 1.25fr;gap:44px}
-.discussion-body p,.limitation-grid p{font-size:17px;line-height:1.85}
-.limitation-grid h3{font-size:20px}
-.evidence-note{font-size:14px}
+.discussion-body p,.limitation-grid p{font-size:20px;line-height:1.85}
+.limitation-grid h3{font-size:22px}
+.evidence-note{font-size:16px}
 .start{padding-block:88px}
 .start-grid{grid-template-columns:1fr 1.1fr;gap:80px}
 .start h2{font-size:60px}
-.start p{font-size:17px;max-width:54ch}
-.code-head{font-size:12px;padding:18px 24px}
-.copy{font-size:14px;min-height:36px;padding:6px 12px}
-pre{font-size:15px;line-height:1.85;padding:28px}
-.code-card p,.setup-note{font-size:14px}
+.start p{font-size:20px;max-width:54ch}
+.code-head{font-size:14px;padding:18px 24px}
+.copy{font-size:16px;min-height:44px;padding:6px 12px}
+pre{font-size:17px;line-height:1.85;padding:28px}
+.code-card p,.setup-note{font-size:16px}
 .citation{grid-template-columns:.8fr 1.2fr;gap:80px}
 .citation h2{font-size:54px}
-.citation p{font-size:17px;max-width:46ch}
-.citation .text-link{font-size:15px}
-.citation-code pre{font-size:15px;line-height:1.8}
-footer{font-size:14px;gap:28px;padding-block:30px 40px}
-footer p,footer>a:not(.brand){font-size:14px}
-#toast{font-size:16px;max-width:calc(100% - 32px);text-align:center;z-index:10}
+.citation p{font-size:20px;max-width:46ch}
+.citation .text-link{font-size:17px}
+.citation-code pre{font-size:17px;line-height:1.8}
+footer{font-size:16px;gap:28px;padding-block:30px 40px}
+footer p,footer>a:not(.brand){font-size:16px}
+#toast{font-size:18px;max-width:calc(100% - 32px);text-align:center;z-index:10}
 .hero-copy,.hero-art,.overview>*,.section-heading>*,.steps>*,.method-detail>*,.dataset-grid>*,.discussion-body>*,.start-grid>*,.citation>*{min-width:0}
 @media(min-width:2000px){
  .wrap{width:min(1560px,calc(100% - 160px))}
  .hero{gap:100px;padding-block:72px}.hero-art{height:650px}
- .intro,.overview-copy{font-size:20px}
+ .intro,.overview-copy{font-size:22px}
  .section{padding-block:116px}.benchmark{padding-bottom:0}
 }
 @media(max-width:1200px){
  .wrap{width:calc(100% - 72px)}
- .header{height:98px;gap:20px}.header nav{gap:18px;font-size:14px}.brand sup{display:none}
+ .header{height:98px;gap:20px}.header nav{gap:18px;font-size:16px}.brand sup{display:none}
  .hero{gap:40px;padding-block:48px}.hero-art{height:560px}
- h1{font-size:clamp(68px,7.3vw,90px)}.hero-copy h2{font-size:20px}.intro{font-size:17px}
- .exhibit{inset:60px 24px 75px}.art-note{right:12px;padding:10px 12px;font-size:12px}
- .art-top,.art-bottom{left:16px;right:16px;font-size:11px}
+ h1{font-size:clamp(68px,7.3vw,90px)}.hero-copy h2{font-size:22px}.intro{font-size:20px}
+ .exhibit{inset:60px 24px 75px}.art-note{right:12px;padding:10px 12px;font-size:14px}
+ .art-top,.art-bottom{left:16px;right:16px;font-size:13px}
  .overview{gap:40px}.section-heading{gap:32px}.section-heading>p{max-width:35ch}
  .method-detail,.discussion-body{grid-template-columns:1fr;gap:24px}
  .method-detail p:not(.eyebrow),.discussion-body p{max-width:78ch}
@@ -140,71 +140,71 @@ footer p,footer>a:not(.brand){font-size:14px}
 }
 @media(max-width:900px){
  .header{height:auto;min-height:96px;flex-wrap:wrap;padding-block:22px;gap:18px}
- .header nav{display:flex;order:3;width:100%;gap:26px;overflow-x:auto;font-size:15px;padding-bottom:4px}
- .nav-code{margin-left:auto}.hero{grid-template-columns:1fr 1fr;gap:28px}
- h1{font-size:68px;letter-spacing:-2px}.hero-copy h2{font-size:19px}.hero-art{height:550px}
+ .header nav{display:flex;order:3;width:100%;gap:26px;overflow-x:auto;font-size:17px;padding-bottom:4px}
+ .nav-code{margin-left:auto}.hero{grid-template-columns:1fr;gap:36px}.hero-copy{max-width:720px}.hero-art{width:100%;max-width:680px;justify-self:center}
+ h1{font-size:68px;letter-spacing:-2px}.hero-copy h2{font-size:21px}.hero-art{height:550px}
  .hero-label{letter-spacing:1.3px}.hero .desktop{display:none}
- .art-note{left:12px;right:12px;bottom:60px;justify-content:center}.art-top,.art-bottom{font-size:10px}
- .authors{align-items:flex-start;font-size:14px;gap:24px}.authors>a{flex-shrink:1}
+ .art-note{left:12px;right:12px;bottom:60px;justify-content:center}.art-top,.art-bottom{font-size:12px}
+ .authors{align-items:flex-start;font-size:16px;gap:24px}.authors>a{flex-shrink:1}
  .section{padding-block:80px}.benchmark{padding-bottom:0}
  .overview{grid-template-columns:1fr;gap:28px}.overview-copy{padding-top:0;max-width:70ch}
  .insight p{max-width:65ch}.section-heading{display:block}.section-heading>p{max-width:65ch;margin-top:24px}
- .steps{gap:26px}.steps p{font-size:16px}.steps h3{font-size:20px}
+ .steps{grid-template-columns:1fr;gap:30px}.steps p{font-size:18px}.steps h3{font-size:22px}
  .dataset-grid{gap:22px}.dataset-grid article{padding:24px}
- .dataset-grid h3{font-size:38px}.dataset-stats span{font-size:14px}
+ .dataset-grid h3{font-size:38px}.dataset-stats span{font-size:16px}
  .start-grid,.citation{grid-template-columns:1fr;gap:34px}.start p,.citation p{max-width:65ch}
- .limitation-grid{gap:24px}.limitation-grid p{font-size:16px}
- .ablation-bars>div{grid-template-columns:240px 1fr 90px;font-size:15px;gap:16px}
+ .limitation-grid{gap:24px}.limitation-grid p{font-size:18px}
+ .ablation-bars>div{grid-template-columns:240px 1fr 90px;font-size:17px;gap:16px}
 }
 @media(max-width:640px){
- .wrap{width:calc(100% - 40px)}body{font-size:17px}
+ .wrap{width:calc(100% - 40px)}body{font-size:19px}
  .header{padding-block:18px;min-height:80px;gap:16px}.brand{font-size:26px}.brand-icon{font-size:32px;margin-right:3px}
- .nav-code{font-size:14px;padding:8px 12px}.nav-code span{margin-left:8px}
- .header nav{gap:24px;font-size:14px;white-space:nowrap}
+ .nav-code{font-size:16px;padding:8px 12px}.nav-code span{margin-left:8px}
+ .header nav{gap:24px;font-size:16px;white-space:nowrap}
  .hero{grid-template-columns:1fr;gap:32px;padding-block:36px 40px}
- .hero-label{font-size:11px;margin-block:28px 20px}.badge{font-size:12px}
+ .hero-label{font-size:13px;margin-block:28px 20px}.badge{font-size:14px}
  h1{font-size:clamp(60px,15vw,86px);line-height:1.02;margin-bottom:24px}
- .hero-copy h2{font-size:20px;max-width:32ch}.intro{font-size:17px;max-width:58ch}
- .button{font-size:15px;padding:13px 18px;min-height:48px;gap:18px}.actions{gap:10px}
- .discover{font-size:13px;margin-top:24px}
+ .hero-copy h2{font-size:22px;max-width:32ch}.intro{font-size:19px;max-width:58ch}
+ .button{font-size:17px;padding:13px 18px;min-height:48px;gap:18px}.actions{gap:10px}
+ .discover{font-size:15px;margin-top:24px}
  .hero-art{height:auto;aspect-ratio:1/1.07;min-height:340px;max-height:540px}
- .exhibit{inset:46px 32px 60px}.art-note{left:auto;bottom:58px;right:14px;justify-content:flex-start;font-size:12px}
- .art-top,.art-bottom{font-size:10px;letter-spacing:.2px}
- .authors{flex-direction:column;font-size:14px;gap:16px;padding-block:22px}.authors>a{text-align:left}
+ .exhibit{inset:46px 32px 60px}.art-note{left:auto;bottom:58px;right:14px;justify-content:flex-start;font-size:14px}
+ .art-top,.art-bottom{font-size:12px;letter-spacing:.2px}
+ .authors{flex-direction:column;font-size:16px;gap:16px;padding-block:22px}.authors>a{text-align:left}
  .section{padding-block:64px}.benchmark{padding-bottom:0}
  h2,.overview h2{font-size:clamp(38px,9.5vw,50px);line-height:1.15;letter-spacing:-.8px}
- .eyebrow{font-size:12px;margin-bottom:18px}.overview-copy,.insight p{font-size:17px}
- h3{font-size:21px}.insight{gap:16px}.insight>span{width:36px;height:36px;line-height:36px}
- .section-heading{margin-bottom:28px}.section-heading>p{font-size:16px;line-height:1.8}
- .scene-picker{justify-content:flex-start;gap:8px}.scene{font-size:14px;padding:10px 13px}
- .compare-tag{font-size:10px;padding:5px 8px;letter-spacing:.5px;top:12px}.tag-left{left:10px}.tag-right{right:10px}
- .compare-line>span{width:36px;height:36px}.figure-caption{font-size:13px;flex-direction:column;gap:6px}
- .scene-gallery{padding:16px;margin-block:28px}.scene-gallery p{font-size:16px}
- .scene-gallery figcaption{font-size:13px}.scene-gallery>a{display:block;overflow-x:auto}.scene-gallery img{min-width:720px}
- .full-figure summary,.research-details summary{font-size:17px;line-height:1.6;padding-block:20px}
+ .eyebrow{font-size:14px;margin-bottom:18px}.overview-copy,.insight p{font-size:19px}
+ h3{font-size:23px}.insight{gap:16px}.insight>span{width:36px;height:36px;line-height:36px}
+ .section-heading{margin-bottom:28px}.section-heading>p{font-size:18px;line-height:1.8}
+ .scene-picker{justify-content:flex-start;gap:8px}.scene{font-size:16px;padding:10px 13px}
+ .compare-tag{font-size:12px;padding:5px 8px;letter-spacing:.5px;top:12px}.tag-left{left:10px}.tag-right{right:10px}
+ .compare-line>span{width:36px;height:36px}.figure-caption{font-size:15px;flex-direction:column;gap:6px}
+ .scene-gallery{padding:16px;margin-block:28px}.scene-gallery p{font-size:18px}
+ .scene-gallery figcaption{font-size:15px}.scene-gallery>a{display:block;overflow-x:auto}.scene-gallery img{min-width:720px}
+ .full-figure summary,.research-details summary{font-size:19px;line-height:1.6;padding-block:20px}
  .metric-strip{grid-template-columns:1fr;gap:24px;margin-block:34px 40px}
  .metric-strip>div{padding-left:20px}.metric-strip strong{font-size:56px;margin-bottom:6px}
- .metric-strip small{font-size:25px}.metric-strip span{font-size:17px}.metric-strip p{font-size:14px}
- .benchmark-tabs{gap:24px}.benchmark-tabs button{font-size:15px}
- table,.table-scroll table{font-size:15px}thead th{font-size:13px}th,td{padding:16px}
- caption{font-size:14px;padding:16px;line-height:1.7}.table-note{font-size:14px}
+ .metric-strip small{font-size:25px}.metric-strip span{font-size:19px}.metric-strip p{font-size:16px}
+ .benchmark-tabs{gap:24px}.benchmark-tabs button{font-size:17px}
+ table,.table-scroll table{font-size:17px}thead th{font-size:15px}th,td{padding:16px}
+ caption{font-size:16px;padding:16px;line-height:1.7}.table-note{font-size:16px}
  .steps{grid-template-columns:1fr;gap:26px;margin-block:32px}.steps article{display:grid;grid-template-columns:38px 1fr;gap:0 14px}
- .step-no{grid-row:1/3;font-size:30px;margin:0}.steps h3{font-size:21px}.steps p{font-size:17px}
- .pipeline{padding:14px}.pipeline figcaption{font-size:12px;flex-direction:column;gap:8px;margin-top:16px}
+ .step-no{grid-row:1/3;font-size:30px;margin:0}.steps h3{font-size:23px}.steps p{font-size:19px}
+ .pipeline{padding:14px}.pipeline figcaption{font-size:14px;flex-direction:column;gap:8px;margin-top:16px}
  .method-detail{margin-top:32px;padding-block:10px 28px}.method-detail h3{font-size:34px}
- .method-detail figcaption,.dataset-figure figcaption{font-size:13px}
- .ablation-bars>div{grid-template-columns:1fr 82px;gap:8px 12px;font-size:14px}
+ .method-detail figcaption,.dataset-figure figcaption{font-size:15px}
+ .ablation-bars>div{grid-template-columns:1fr 82px;gap:8px 12px;font-size:16px}
  .ablation-bars i{grid-row:2;grid-column:1/-1}.ablation-bars b{grid-column:2;grid-row:1}
  .dataset-grid{grid-template-columns:1fr;margin-top:30px}.dataset-grid article{padding:24px}
- .dataset-grid h3{font-size:38px}.dataset-stats strong{font-size:50px}.dataset-stats span,.dataset-grid .dataset-foot{font-size:14px}
- .synthetic-recipe{gap:8px;margin-block:24px}.synthetic-recipe span{font-size:13px}
+ .dataset-grid h3{font-size:38px}.dataset-stats strong{font-size:50px}.dataset-stats span,.dataset-grid .dataset-foot{font-size:16px}
+ .synthetic-recipe{gap:8px;margin-block:24px}.synthetic-recipe span{font-size:15px}
  .dataset-figure{padding:12px}.limitation-grid{grid-template-columns:1fr;gap:16px}
- .limitation-grid p{font-size:17px}.discussion-body{gap:20px}
- .start{padding-block:64px}.start h2{font-size:46px}.start p{font-size:17px}
- .code-head{font-size:11px;padding:14px 16px;gap:14px}.copy{font-size:13px;flex-shrink:0}
- pre,.citation-code pre{font-size:13px;padding:20px;line-height:1.85}
- .code-card p,.setup-note{font-size:13px;padding-inline:20px}
- .citation h2{font-size:44px}.citation p{font-size:17px}
- footer{flex-wrap:wrap;gap:18px;padding-block:28px}footer p{flex-basis:100%;margin:0}footer p,footer>a:not(.brand){font-size:13px}
+ .limitation-grid p{font-size:19px}.discussion-body{gap:20px}
+ .start{padding-block:64px}.start h2{font-size:46px}.start p{font-size:19px}
+ .code-head{font-size:13px;padding:14px 16px;gap:14px}.copy{font-size:15px;min-height:44px;flex-shrink:0}
+ pre,.citation-code pre{font-size:15px;padding:20px;line-height:1.85}
+ .code-card p,.setup-note{font-size:15px;padding-inline:20px}
+ .citation h2{font-size:44px}.citation p{font-size:19px}
+ footer{flex-wrap:wrap;gap:18px;padding-block:28px}footer p{flex-basis:100%;margin:0}footer p,footer>a:not(.brand){font-size:15px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
