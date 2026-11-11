@@ -208,3 +208,14 @@ footer p,footer>a:not(.brand){font-size:16px}
  footer{flex-wrap:wrap;gap:18px;padding-block:28px}footer p{flex-basis:100%;margin:0}footer p,footer>a:not(.brand){font-size:15px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Embedded replay: one video and one compact, optional metric note. */
+.demo{padding-block:72px 24px}
+.demo h2{font-size:clamp(32px,3vw,44px);margin:0 0 28px}
+.demo-figure{margin:0}
+.demo-video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#fff;border:1px solid var(--line);border-radius:4px}
+.demo-figure figcaption{font-size:15px;color:var(--muted);margin-top:12px;line-height:1.7}
+.demo-details{margin-top:10px;color:var(--muted);font-size:15px}
+.demo-details summary{cursor:pointer;width:fit-content}
+.demo-details p{max-width:95ch;font-size:15px;line-height:1.8;margin:12px 0 0}
+@media(max-width:640px){.demo{padding-block:44px 12px}.demo h2{margin-bottom:20px}.demo-figure figcaption,.demo-details,.demo-details p{font-size:13px}}

@@ -14,14 +14,14 @@
   <meta property="og:image" content="https://aswhalefall.github.io/GlassGS/assets/enclosure-original.png">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20261110-readable-2">
+  <link rel="stylesheet" href="styles.css?v=20261111-demo-clean">
   <script src="app.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
   <header class="header wrap">
     <a class="brand" href="#" aria-label="GlassGS home"><span class="brand-icon">◇</span> Glass<span>GS</span><sup>RESEARCH</sup></a>
-    <nav aria-label="Main navigation"><a href="#method">Method</a><a href="#results">Results</a><a href="#benchmark">Benchmark</a><a href="#dataset">Dataset</a><a href="#citation">Citation</a></nav>
+    <nav aria-label="Main navigation"><a href="#demo">Demo</a><a href="#method">Method</a><a href="#results">Results</a><a href="#benchmark">Benchmark</a><a href="#dataset">Dataset</a><a href="#citation">Citation</a></nav>
     <a class="nav-code" href="https://github.com/Aswhalefall/GlassGS" target="_blank" rel="noopener">View code <span>↗</span></a>
   </header>
   <main id="main">
@@ -43,6 +43,20 @@
       </div>
     </section>
     <section class="authors wrap" aria-label="Paper authors"><p>Mingxuan Cui · Yunrui Zhu · Wuqi Wang · Di Lin · Jianhua Zhang<br>Jie Zhang · Ming-Ming Cheng · Shengyong Chen · Qing Guo</p><a href="https://doi.org/10.1007/978-3-032-37432-5_7" target="_blank" rel="noopener">European Conference on Computer Vision<br><strong>ECCV 2026 · pp. 109–127 ↗</strong></a></section>
+    <section id="demo" class="section wrap demo" aria-labelledby="demo-title">
+      <h2 id="demo-title">Reconstruct. <em>Reveal.</em></h2>
+      <figure class="demo-figure">
+        <video class="demo-video" controls muted loop playsinline preload="metadata" poster="assets/glassgs-demo-poster.jpg?v=2" width="1920" height="1080" aria-label="Ours and Original 3DGS reconstruction replay with a synchronized PSNR chart" aria-describedby="demo-caption">
+          <source src="assets/glassgs-demo.mp4?v=2" type="video/mp4">
+          <a href="assets/glassgs-demo.mp4">Watch the reconstruction demo.</a>
+        </video>
+        <figcaption id="demo-caption">TomCatVase · Full-image test PSNR · 20 views · Mean over 3 seeds</figcaption>
+      </figure>
+      <details class="demo-details">
+        <summary>About the plot</summary>
+        <p>Cycle 0 is shown through 105 seconds. After the axis break, the horizontal axis shows cumulative edited views, added in groups of 8. Dots mark measured checkpoints; intermediate values are interpolated. The dashed 3DGS line is its final measured reference, with later baseline training and image-generation waiting time omitted. Rendered images use seed 1; PSNR is averaged over all 20 test views and 3 seeds.</p>
+      </details>
+    </section>
     <section id="overview" class="section wrap overview">
       <div><p class="eyebrow">01 / THE CHALLENGE</p><h2>Glass protects objects.<br><em>Reflections hide them.</em></h2></div>
       <div class="overview-copy"><p>We study the reconstruction of objects inside reflective glass enclosures, as commonly found in museums and exhibitions. Specular reflections change across viewpoints, violate multi-view consistency, and can be reconstructed as false geometry by 3D Gaussian Splatting.</p><p>We identify two complementary properties of these reflections—geometry inconsistency and concept preservation—and use them together to recover a more faithful representation of the enclosed object.</p></div>
